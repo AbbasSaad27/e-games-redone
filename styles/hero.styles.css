@@ -1,0 +1,47 @@
+.section-hero {
+  height: 100vh;
+  position: relative;
+}
+.hero-1 {
+  height: 100%;
+  background-image: url(../img/bg-img/1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  color: white;
+}
+.shadow-effect {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+.short-info {
+  z-index: 100;
+  width: 75%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 7rem;
+  border-left: 2px solid var(--main-color);
+}
+.short-info-title {
+  font-size: 5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.short-info-body {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+.btn-switch-game {
+  position: absolute;
+  bottom: 50%;
+  right: 8rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.4rem;
+}

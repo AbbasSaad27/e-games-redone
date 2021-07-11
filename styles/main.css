@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+:root {
+  --main-color: turquoise;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+input {
+  border: none;
+  box-shadow: none;
+}
+input {
+  border: none;
+}
+button {
+  border: none;
+  background-color: unset;
+}
+.btn {
+  background-color: var(--main-color);
+  color: white;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: black;
+}

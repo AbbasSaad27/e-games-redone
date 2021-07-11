@@ -1,0 +1,71 @@
+.header {
+  width: 100%;
+  padding: 0 10%;
+}
+.header-top {
+  display: flex;
+  padding: 2.5rem 0;
+  justify-content: space-between;
+}
+.search-login {
+  display: flex;
+}
+.searchBar {
+  width: 20rem;
+  background-color: rgb(238, 238, 238);
+  padding: 1rem;
+  height: 100%;
+}
+.search-btn {
+  background-color: rgb(238, 238, 238);
+  margin-left: -2rem;
+  padding: 1rem;
+}
+.search-btn:hover {
+  background-color: rgb(238, 238, 238);
+  color: var(--main-color);
+}
+.btn-login {
+  margin-left: 1rem;
+  padding: 1rem 3rem;
+}
+.page-navigation {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.pages,
+.social-links {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.pages {
+  width: 38%;
+  justify-content: space-between;
+}
+.social-links {
+  width: 20%;
+  font-size: 1.4rem;
+}
+.social:not(:first-child) {
+  margin-left: 3rem;
+}
+.page-link,
+.page,
+.fas,
+.fab {
+  color: rgb(77, 77, 77);
+  transition: color 0.5s;
+  cursor: pointer;
+  font-weight: 700;
+}
+.page-link:hover,
+.page:hover,
+.fas:hover,
+.social-icon:hover {
+  color: var(--main-color);
+}
+.social-icon {
+  font-weight: 400;
+}
